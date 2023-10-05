@@ -11,7 +11,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   //for stor the query parameters state
-  const [query, setQuery] = useState({ q: "New York" });
+  const [query, setQuery] = useState({ q: "Colombo" });
   //for store the celsius and fahrenheit state 
   const [units, setUnits] = useState("metric");
   //for store the weather info
